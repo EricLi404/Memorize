@@ -13,6 +13,16 @@
 		0701F8BB249375D000984011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0701F8BA249375D000984011 /* Assets.xcassets */; };
 		0701F8BE249375D000984011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0701F8BD249375D000984011 /* Preview Assets.xcassets */; };
 		0701F8C1249375D000984011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0701F8BF249375D000984011 /* LaunchScreen.storyboard */; };
+		0745E4782494C6EA009B98C8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4722494C6EA009B98C8 /* Date.swift */; };
+		0745E4792494C6EA009B98C8 /* Date+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4732494C6EA009B98C8 /* Date+Timepiece.swift */; };
+		0745E47A2494C6EA009B98C8 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4742494C6EA009B98C8 /* Int+Timepiece.swift */; };
+		0745E47B2494C6EA009B98C8 /* SATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4752494C6EA009B98C8 /* SATextField.swift */; };
+		0745E47C2494C6EA009B98C8 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4762494C6EA009B98C8 /* String+Timepiece.swift */; };
+		0745E47D2494C6EA009B98C8 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4772494C6EA009B98C8 /* DateComponents+Timepiece.swift */; };
+		0745E47F2494C74C009B98C8 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E47E2494C74C009B98C8 /* TodoItem.swift */; };
+		0745E4812494C95D009B98C8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4802494C95D009B98C8 /* Home.swift */; };
+		0745E4832494D86A009B98C8 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4822494D86A009B98C8 /* TodoList.swift */; };
+		0745E4852494E4A0009B98C8 /* TodoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745E4842494E4A0009B98C8 /* TodoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		0701F8BD249375D000984011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0701F8C0249375D000984011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0701F8C2249375D000984011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0745E4722494C6EA009B98C8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		0745E4732494C6EA009B98C8 /* Date+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Timepiece.swift"; sourceTree = "<group>"; };
+		0745E4742494C6EA009B98C8 /* Int+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Timepiece.swift"; sourceTree = "<group>"; };
+		0745E4752494C6EA009B98C8 /* SATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextField.swift; sourceTree = "<group>"; };
+		0745E4762494C6EA009B98C8 /* String+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Timepiece.swift"; sourceTree = "<group>"; };
+		0745E4772494C6EA009B98C8 /* DateComponents+Timepiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		0745E47E2494C74C009B98C8 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		0745E4802494C95D009B98C8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0745E4822494D86A009B98C8 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		0745E4842494E4A0009B98C8 /* TodoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 		0701F8B3249375CE00984011 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				0745E4712494C6EA009B98C8 /* Third-Parties */,
 				0701F8B4249375CE00984011 /* AppDelegate.swift */,
 				0701F8B6249375CE00984011 /* SceneDelegate.swift */,
 				0701F8B8249375CE00984011 /* ContentView.swift */,
@@ -63,6 +84,10 @@
 				0701F8BF249375D000984011 /* LaunchScreen.storyboard */,
 				0701F8C2249375D000984011 /* Info.plist */,
 				0701F8BC249375D000984011 /* Preview Content */,
+				0745E47E2494C74C009B98C8 /* TodoItem.swift */,
+				0745E4802494C95D009B98C8 /* Home.swift */,
+				0745E4822494D86A009B98C8 /* TodoList.swift */,
+				0745E4842494E4A0009B98C8 /* TodoDetails.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -73,6 +98,19 @@
 				0701F8BD249375D000984011 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0745E4712494C6EA009B98C8 /* Third-Parties */ = {
+			isa = PBXGroup;
+			children = (
+				0745E4722494C6EA009B98C8 /* Date.swift */,
+				0745E4732494C6EA009B98C8 /* Date+Timepiece.swift */,
+				0745E4742494C6EA009B98C8 /* Int+Timepiece.swift */,
+				0745E4752494C6EA009B98C8 /* SATextField.swift */,
+				0745E4762494C6EA009B98C8 /* String+Timepiece.swift */,
+				0745E4772494C6EA009B98C8 /* DateComponents+Timepiece.swift */,
+			);
+			path = "Third-Parties";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0745E47F2494C74C009B98C8 /* TodoItem.swift in Sources */,
+				0745E4852494E4A0009B98C8 /* TodoDetails.swift in Sources */,
+				0745E47C2494C6EA009B98C8 /* String+Timepiece.swift in Sources */,
+				0745E4792494C6EA009B98C8 /* Date+Timepiece.swift in Sources */,
+				0745E4832494D86A009B98C8 /* TodoList.swift in Sources */,
+				0745E4812494C95D009B98C8 /* Home.swift in Sources */,
 				0701F8B5249375CE00984011 /* AppDelegate.swift in Sources */,
 				0701F8B7249375CE00984011 /* SceneDelegate.swift in Sources */,
 				0701F8B9249375CE00984011 /* ContentView.swift in Sources */,
+				0745E47D2494C6EA009B98C8 /* DateComponents+Timepiece.swift in Sources */,
+				0745E47B2494C6EA009B98C8 /* SATextField.swift in Sources */,
+				0745E4782494C6EA009B98C8 /* Date.swift in Sources */,
+				0745E47A2494C6EA009B98C8 /* Int+Timepiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 88C3Y33344;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = 88C3Y33344;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
