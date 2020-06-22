@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        formatter.dateStyle = DateFormatter.Style.short
+        formatter.dateStyle = DateFormatter.Style.full
         return true
     }
 

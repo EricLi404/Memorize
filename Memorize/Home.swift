@@ -39,7 +39,7 @@ struct Home: View {
             TodoList(main: main)
                 .blur(radius: main.detailsShowing ? 10 : 0)
             Button(action: {
-               editingMode = false
+                editingMode = false
                 editingTodo = emptyTODO
                 detailsShouldUpdateTitle = true
                 self.main.detailsTitle = ""
@@ -48,7 +48,7 @@ struct Home: View {
             }){
                 btnAdd()
             }
-            .offset(x: UIScreen.main.bounds.width/100,y:UIScreen.main.bounds.height/2-80)
+            .offset(x: UIScreen.main.bounds.width/100, y: UIScreen.main.bounds.height/2-79)
             .blur(radius: main.detailsShowing ? 10 : 0)
             TodoDetails(main: main)
                 .offset(x:0,y:main.detailsShowing ? 0 : UIScreen.main.bounds.height)
